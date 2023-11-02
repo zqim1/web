@@ -8,6 +8,10 @@ h1, h2 {
 	color: #007e7e; /* 将标题设置为一种青绿色，使他和 logo 更相合 */
 }
 
+.elixirs h2,h3 {
+  color: black;
+}
+
 h1 {
 	font-size: 1.5em;
 }
@@ -17,9 +21,7 @@ h2 {
 }
 
 #guarantee {
-  border-color: white;
-  border-width: 1px;
-  border-style: dashed;
+  border: 1px dashed white;
   background-color: #a7cece;
   padding: 25px; 
   margin: 30px;  /* 新增外边距 */
@@ -30,24 +32,19 @@ h2 {
 }
 
 #guarantee {
-  background-image: url(images/background.gif);
-  background-repeat: no-repeat;
   background-position: top left;
+  background: url(images/background.gif) no-repeat;
   padding: 25px;
   padding-left: 80px;
   margin-right: 250px;
 }
 
 .elixirs {
-  border-width: thin;
-  border-style: solid;
-  border-color: #007e7e;
+  border: thin solid #007e7e;
   width: 200px;/* width 属性允许指定内容区的宽度 */
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
+  padding: 0px 20px 20px 20px;
   margin-left: 20px;
-  background-image:url(images/cocktail.gif);
-  background-repeat: repeat-x;
+  background: url(images/cocktail.gif) repeat-x;
   text-align: center;/* 文本剧中对齐 */
+	line-height: 1;
 }
