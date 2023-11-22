@@ -69,11 +69,16 @@ div.talbeRow {
 .main {
   display: table-cell;
   vertical-align: top;  /* 垂直对齐: 顶端对齐 */
-  ...
 }
 
 .sidebar {
   display: table-cell;
   vertical-align: top;
-  ...
+}
+
+.drinks {
+  display: table-cell;
+  vertical-align: top;
+  background-color: #efe5d0;
+  padding: 15px;
 }
