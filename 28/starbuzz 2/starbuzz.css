@@ -5,7 +5,7 @@ body {
   margin:           0px;
 }
 
-.header {
+.top {
   background-color: #675c47;
   margin:           10px;
   height:           108px;
@@ -102,4 +102,13 @@ div.talbeRow {
 
 .coupon a, img{
 	border: none;
+}
+
+/* added section#blog for blog */
+section.main, section.blog {
+  display: table-cell;
+  background:       #efe5d0 url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
 }
