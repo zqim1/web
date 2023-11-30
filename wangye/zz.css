@@ -1,0 +1,23 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+header {
+  width: 1600px;
+  height: 400;
+  background-image: url(lu.jpg);
+  background-repeat: no-repeat;
+  
+  color: #fff;
+}
+
+img {
+  width: 1500px;
+  height: 420px;
+}
+
+.huikuang {
+  padding-top: 24px;
+  padding-left: 10px;
+}
