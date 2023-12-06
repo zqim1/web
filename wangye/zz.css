@@ -3,21 +3,44 @@ margin: 0;
 padding: 0;
 }
 
-header {
-  width: 1600px;
-  height: 400;
+header {  
+  position: relative;
   background-image: url(lu.jpg);
   background-repeat: no-repeat;
-  
+  width: 863px;
+  height: 350px;
   color: #fff;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
 }
 
-img {
-  width: 1500px;
-  height: 420px;
-}
+/* img {
+  width: 1600px;
+  height: 400px;
+  margin-bottom: 100px;
+
+
+} */
 
 .huikuang {
-  padding-top: 24px;
-  padding-left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 863px;
+  height: 80px;
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  bottom: 0;
+}
+.caidan {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 863px;
+  height: 56px;
+  width: 100%;
+
+
+}
+.yell {
+
+
 }
