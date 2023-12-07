@@ -3,8 +3,8 @@ margin: 0;
 padding: 0;
 }
 
-header {  
-  position: relative;
+.tupian {  
+
   background-image: url(lu.jpg);
   background-repeat: no-repeat;
   width: 863px;
@@ -15,16 +15,9 @@ header {
   width: 100%;
 }
 
-/* img {
-  width: 1600px;
-  height: 400px;
-  margin-bottom: 100px;
 
-
-} */
-
-.huikuang {
-  background-color: rgba(0, 0, 0, 0.5);
+.huitiao {
+  background-color: rgba(0, 0, 0, 0.7);
   width: 863px;
   height: 80px;
   width: 100%;
@@ -32,15 +25,61 @@ header {
   padding-bottom: 1.5rem;
   bottom: 0;
 }
-.caidan {
-  background-color: rgba(0, 0, 0, 0.7);
+
+
+.Yellowstone {
+  position: relative;
+  width: 162.39px;
+  height: 27px;
+  margin: 0px 20px 0px 0px;
+  font-size: 30px;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  line-height: 27px;
+}
+
+.NaID {
+  float: left;
+  display: block;
+  width: 78.05px;
+  height: 16px; 
+  font-size: 13px;
+  line-height:1rem ;
+  font-family:Arial, "Helvetica Neue", Helvetica, Arial,sans-serif;
+}
+
+.heitiao {
+  background-color: black;
   width: 863px;
   height: 56px;
   width: 100%;
-
-
 }
-.yell {
 
+a:hover {
+  background-color: gray;
+  text-decoration: none;
+}
 
+a:link {
+  background-color: black;
+  text-decoration: none;
+  color: #fff;
+}
+
+a.Plan {
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  width: 117.38px;
+  height: 56px;
+}
+
+a.Get {
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  width: 154.92px;
+  height: 56px;
 }
