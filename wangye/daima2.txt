@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+ <title>https://www.nps.gov/yell/index.htm</title>
+ <link rel="stylesheet" type="text/css" href="dai.css">
+</head>
+<body>
+    <!-- <img src="lu.jpg" alt="Deer in the snowy mountains"> S -->
+    <div class="tupian">
+	<div class="pp">
+	</div>
+      <div class="huitiao">
+          <span class="Yellowstone">Yellowstone</span>
+		       
+          <span>National Park</span>
+
+          <div class="ID">ID,MT,WY</div>    
+      </div> 
+    </div>
+
+
+	<div class="heitiao">
+		<a href="#" >
+			
+			<font class="Plan">Plan Your Visit</font>
+			<ul class="b">
+			<li>333333</li>
+			<li>333333</li>
+			<li>333333</li>
+			</ul>
+	  </a>
+	
+	
+		<a href="#" >
+			<font class="Learn">Learn About the Park</font>
+
+		</a>      
+
+	
+  
+		<a href="#" >
+			<font class="Get">Get Involved</font>
+
+		</a>      
+</div>
+  </div>
+
+</body>
+</html>
+
+
+
+/* CSS Document */
+
+body {
+margin: 0;
+padding: 0;
+}
+.pp{
+	height:232px;
+}
+.tupian {
+  background-image:url(lu.jpg);
+  background-repeat: no-repeat;
+  width: 863px;
+  height: 350px;
+  color: #fff;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+}
+
+
+.huitiao {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 863px;
+  height: 80px;
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+ 
+}
+
+.Yellowstone {
+  width: 162.39px;
+  height: 27px;
+  margin: 0px 20px 0px 0px;
+  font-size: 30px;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  line-height: 27px;
+  display:inline;
+}
+a{
+	display:block;/*行元素转换成块元素*/
+}
+.b{
+	display:none;
+}
+.NaID {
+	
+	left:300px;
+  width: 78.05px;
+  height: 16px; 
+  font-size: 13px;
+  line-height:1rem ;
+  font-family:Arial, "Helvetica Neue", Helvetica, Arial,sans-serif;
+  
+}
+.National{
+	display:inline;
+}
+.ID {
+	display:inline;
+}
+
+.heitiao {
+  background-color: black;
+  width: 863px;
+  height: 56px;
+  width: 100%;
+  
+}
+
+/*.heitiao:hover {
+color:#FFFFFF;
+  padding: 0px 10px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  height: 56px;
+  font-weight:bold;
+  background-color:#666666;
+}
+.heitiao:link {
+  color:#FFFFFF;
+  padding: 0px 10px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  height: 56px;
+  font-weight:bold;
+  background-color:#000000;
+}*/
+.Plan {
+
+  width: 117.38px;
+  display:block;/*行元素转换成块元素*/
+}
+
+.Learn {
+float:left;
+  width: 154.92px;
+  	display:block;/*行元素转换成块元素*/
+}
+
+.Get {
+float:left;
+  width: 154.92px;
+  	display:block;/*行元素转换成块元素*/
+}
+.heitiao {
+color:#FFFFFF;
+}
+
+a:link {/*未访问*/
+  background-color:#000000;
+  text-decoration: none;
+  color:#FFFFFF;
+  
+  
+}
+a:hover {/*鼠标放在链接上*/
+  background-color:#333333;
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+
+
+
+
