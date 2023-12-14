@@ -3,6 +3,7 @@
 body {
 margin: 0;
 padding: 0;
+
 }
 .pp{
 	height:232px;
@@ -63,12 +64,9 @@ a{
 }
 .heitiao {
   background-color: black;
-  width: 858.67px;
+  width: 1136px;
   height: 56px;
   width: 100%;
-
-  
-  
 }
 
 /*.heitiao:hover {
@@ -91,12 +89,9 @@ color:#FFFFFF;
 }*/
 .Plan {
   display:block;     /*转化为行元素 */
-
   padding: 0px 10px;
   width: 117.38px;
   float: left;
-
-
 }
 
 .Learn {
@@ -108,19 +103,65 @@ color:#FFFFFF;
 .Get {
   display:block;     /*转化为行元素 */
   width: 154.92px;
-    float: left;
+  float: left;
 }
 
 .Plan,.Learn,.Get {
-
   padding: 0px 10px;
   line-height: 56px;
   font-family: Arial, sans-serif;
   font-size: 12px;
   color:#FFFFFF;
 }
+
 .heitiao {
 color:#FFFFFF;
+}
+
+.YOUTUBIAO {
+  width: 747.67px;
+  height: 56px;
+  margin: 0px 0px 0px 368.328px;
+  font-size: 16px;
+  font-family: "Helvetica Neue",Arial, Helvetica, sans-serif;
+}
+
+.TUBIAO1 {
+  float: right;
+
+}
+.TUBIAO2 {
+  float: right;
+
+}
+.TUBIAO3 {
+  float: right;
+
+}
+.TUBIAO4 {
+  float: right;
+
+}
+
+.TUBIAO5 {
+  float: right;
+}
+
+.you1 {
+  color: #FFFFFF;
+  padding: 9px 0px;
+  width: 75px;
+  height: 56px;
+  display: inline-block;
+}
+
+.TUBIAO1,.TUBIAO2,.TUBIAO3,.TUBIAO4,.TUBIAO5 {
+  width: 75px;
+  height: 15px;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color:#FFFFFF;
 }
 
 a:link {/*δ����*/
@@ -135,12 +176,4 @@ a:hover {/*������������*/
   text-decoration: none;
   color:#FFFFFF;
 }
-.youtubiao {
-  margin: 0px 0px 0px 368.328px;
-}
-.INFO {
-  height: 20px;
-  width: 20px;
-  font-size: .875rem;
-  vertical-align: top;
-}
+
