@@ -94,10 +94,10 @@ ul {
   list-style: none;
   /* background: black; */
   text-align: left;
-
+  
   width: 1320px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 10px 0 0;
   height: 56px;
 }
 
@@ -118,7 +118,7 @@ ul li a {
 .dropdown {
   color: white;
   display: block;
-  width: auto;
+  width: 160px;
   background: black;
   position: absolute;
   z-index: 1;
@@ -131,7 +131,7 @@ ul li a {
   line-height: normal;
   direction: ltr;
   text-align: left;
-  height: 330px;
+  height: 238px;
   
 }
 
@@ -156,16 +156,16 @@ ul li:hover ul.dropdown {
 
 /* 黑条文字导航栏 */
 .Plan {
-  width: 107.38px;
+  width: 102.38px;
 }
 
 .Learn {
-  width: 144.92px;
+  width: 139.92px;
 }
 
 
 .Get {
-  width: 96.31px;
+  width: 91.31px;
 }
 
 
@@ -225,40 +225,31 @@ a.you2:hover {
 .Tu1 {
   height: 20px;
   width: 20px;
-
-  /* font-size: .875
-  rem;
-  vertical-align: top;
-  margin: 0 auto;
-  padding: 0; */
 }
 
 .Tu2 {
-  height: 18.19px;
-  width: 18.19px;
+  height: 20px;
+  width: 20px;
 }
 .Tu3 {
-  height: 19.85px;
-  width: 14.38px;
+  height: 21.81px;
+  width: 15.8px;
 }
 .Tu4 {
-  height: 17.81px;
-  width: 20.06px;
+  height: 19px;
+  width: 21.4px;
 }
 .Tu5 {
   height: 20px;
   width: 20.14px;
 }
-/* .Tu1,.Tu2,.Tu3,.Tu4,.Tu5 {
-  margin: 0PX;
-} */
 
 .p1 {
   margin: 9px 0;
 }
 
 .p2 {
-  margin: 3px 0;
+  margin: 5px 0;
 }
 .Jiantou {
   color: #FFFFFF;
@@ -291,12 +282,15 @@ a.you2:hover {
 }
 
 .li {
-  width: 160px;
-  height: 36px;
+  width: 120px;
+  height: auto;
   font-size: 12px;
   font-family: Arial, sans-serif;
   padding: 10px 20px;
+  z-index: 10000;
   color: #FFFFFF;
+
+  
 }
 
 .li:link {
@@ -306,4 +300,17 @@ a.you2:hover {
 .li:hover {
   background: #436023;
     color: #FFFFFF;
+}
+
+
+.Jiantou2 {
+  color: #FFFFFF;
+  display: inline-block;
+  position: unset;
+  border-width: 6px 4px 0 4px;
+  height: 39;
+  border-color: #fff rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0);
+  border-style: solid dashed dashed dashed;
+  width: 56;
+  margin:  0px 0px -3px 6px;
 }
