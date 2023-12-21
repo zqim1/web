@@ -1,0 +1,309 @@
+/* CSS Document */
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: aquamarine; */
+}
+  
+.pp{
+  height:270px;
+  }
+  
+/* 图片 */
+.tupian {
+  background-image:url(lu.jpg);
+  background-repeat: no-repeat;
+  height: 350px;
+  color: #fff;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+}
+/* 灰条 */
+.huitiao {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 80;
+  width: 100%;
+}
+
+/* 灰条内嵌条 */
+.zhong {
+  width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+/* 灰条内嵌条文字 */
+.Yellowstone {
+  font-size: 1.875rem;
+  margin-right: 1.25rem;
+  border-bottom: none;
+  color: #FFFFFF;
+  font-family: "Arial",sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 27px;
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 0px 20px 0px 0px;
+}
+
+.Yellowstone:link {
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+
+.Yellowstone:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.National,.ID {
+  float: left;
+  left:300px;
+  width: 78.05px;
+  height: 16px; 
+  font-size: 13px;
+  line-height:1rem ;
+  font-family:Arial, "Helvetica Neue", Helvetica, Arial,sans-serif;
+}
+  
+/* 黑条 */
+.heitiao {
+  background-color: black;
+  height: 56px;
+  width: 100%;
+} 
+
+.xiazhong {
+  width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+ /* 下拉导航栏 */
+ul {
+  list-style: none;
+  /* background: black; */
+  text-align: left;
+
+  width: 1320px;
+  margin: 0 auto;
+  padding: 0;
+  height: 56px;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+  height: 56px;
+}
+
+ul li a {
+  display: block;
+  padding: 0px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.dropdown {
+  color: white;
+  display: block;
+  width: auto;
+  background: black;
+  position: absolute;
+  z-index: 1;
+  display: none;
+  margin-left: 0px;
+  margin-top: 56px;
+  top: auto;
+  left: 0px;
+  padding: 0;
+  line-height: normal;
+  direction: ltr;
+  text-align: left;
+  height: 330px;
+  
+}
+
+.Get:hover,.Learn:hover,.Plan:hover {
+  background-color: #333333;
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+.Plan,.Learn,.Get {
+  padding: 0px 10px;
+  line-height: 56px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color:#FFFFFF;  
+  font-weight: bold;
+  float: left;
+  height: 56px;
+}
+
+/* 黑条文字导航栏 */
+.Plan {
+  width: 107.38px;
+}
+
+.Learn {
+  width: 144.92px;
+}
+
+
+.Get {
+  width: 96.31px;
+}
+
+
+/* 黑条右侧图标 */
+.YOUTUBIAO {
+  width: 747.67px;
+  height: 3.5rem;
+  margin: 0px 0px 0px 368.328px;
+  font-size: 16px;
+  font-family: "Helvetica Neue",Arial, Helvetica, sans-serif;
+}
+  
+
+/* 黑条右图标超链接 */
+.TUBIAO {
+  width: 75px;
+  height: 15px;
+  font-size: .625rem;
+
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color:#FFFFFF;
+  text-align:center;
+  line-height: 1.2;
+  padding: 0px 0px 3px;
+}
+
+a.you2 {
+  width: 75px;
+  height: 56px;
+  /* padding: .5625rem 0; */
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: none;
+  float: right;
+}
+
+a.you2:link {
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+a.you2:hover {
+  background-color:#333333;
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+.TUBIAO {
+  position: relative;
+  padding-top: 9px;
+}
+
+.Tu1 {
+  height: 20px;
+  width: 20px;
+
+  /* font-size: .875
+  rem;
+  vertical-align: top;
+  margin: 0 auto;
+  padding: 0; */
+}
+
+.Tu2 {
+  height: 18.19px;
+  width: 18.19px;
+}
+.Tu3 {
+  height: 19.85px;
+  width: 14.38px;
+}
+.Tu4 {
+  height: 17.81px;
+  width: 20.06px;
+}
+.Tu5 {
+  height: 20px;
+  width: 20.14px;
+}
+/* .Tu1,.Tu2,.Tu3,.Tu4,.Tu5 {
+  margin: 0PX;
+} */
+
+.p1 {
+  margin: 9px 0;
+}
+
+.p2 {
+  margin: 3px 0;
+}
+.Jiantou {
+  color: #FFFFFF;
+  display: inline-block;
+  position: unset;
+  border-width: 6px 4px 0 4px;
+  height: 39;
+  border-color: #fff rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0);
+  border-style: solid dashed dashed dashed;
+  width: 56;
+  margin: -3px 0px 0px 6px;
+  
+}
+
+.Hong {
+  color: #FFFFFF;
+  width: 4.453px;
+  height: 10px;
+  display: inline;
+  font-size: .5rem;
+  margin-left: .15625rem;
+  background-color: #c60606;
+  position: absolute;
+  right: 21px;
+  text-align: center;
+  top: 26px;
+  vertical-align: middle;
+  height: .75rem;
+  padding: .0625rem .1875rem;
+}
+
+.li {
+  width: 160px;
+  height: 36px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  padding: 10px 20px;
+  color: #FFFFFF;
+}
+
+.li:link {
+  color: #FFFFFF;
+}
+
+.li:hover {
+  background: #436023;
+    color: #FFFFFF;
+}
